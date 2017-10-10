@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:layout_height="match_parent"
+    tools:context="com.crypticducs000webhost.datagovhack.Main6Activity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:text="Files included:
+1.App prototype(File name)
+2.Powerpoint presentation
+3.Website
+----------------------------------------------------------------------------------------------------------------
+//Project Title(Vision of the project)
+Problem statement-
+----------------------------------------------------------------------------------------------------------------
+//Prerequisites
+What things you need to build this app and how to install them?
+1.Android studio
+Here's the link - https://developer.android.com/studio/index.html
+2.Ms office
+3.Photoshop
+Here's the link -
+4.Picasa
+Here's the link -
+5.Proto.io(For creating app prototypes)
+Here's the link - https://proto.io/
+-------------------------------------------------------------------------------------------------------------------
+Installation
+Download (name)app
+Here's the link -
+------------------------------------------------------------------------------------------------------------------
+What it does?
+This app helps us to locate nearby:
+1.Schools
+2.Colleges
+3.Banks
+4.Blood banks
+5.Hospitals
+6.Shopping malls
+7.Police stations
+8.Bus stands
+-----------------------------------------------------------------------------------------------
+//Code Style
+----------------------------------------------------------------------------------------------------How it is used?
+1.Click on let's Start.
+2.A screen will appear which contains a list of things user can locate.
+3.Select any one of them.
+-------------------------------------------------------------------------------------------------------------------------
+//Screenshots
+//Features
+What makes our project stand out?
+
+//Code Example
+
+//API reference
+
+//Credits and Acknowledgements
+"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:background="#272C50"
+        android:textColor="#fff"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="148dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/rateus"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Us."
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.941" />
+</android.support.constraint.ConstraintLayout>
