@@ -1,3 +1,3 @@
 # FindMyPlacesDataGovHack
 FindMyPlaces acts as a one stop solution for anyone who is new in a city and wants to find the nearest utilities available to him. Although right now the app is enabling the user to find the location of the banks available near him according to the data for north east India available on data.gov.in, the app is coming soon to enable other utilities like food, cinema, ATMs, Shopping Malls, Blood Banks, Schools, Hospitals etc. 
-Apart from the above mentioned feature the app brings out 2 additional features of women safety and Getting an Online Platform ticket system. The system for getting a temporary affidavite is under implementation. 
+Apart from the above mentioned feature the app brings out 2 additional features of women safety and Getting an Online Platform ticket system. The system for getting a temporary affidavite is under implementation
